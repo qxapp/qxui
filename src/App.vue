@@ -55,4 +55,7 @@ export default {
   padding-bottom: @padding-md;
   min-height: calc(100vh - 46px);
 }
+.test {
+  display: inline;
+}
 </style>
