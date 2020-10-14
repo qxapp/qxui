@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-10-14 23:59:08
+ * @LastEditTime: 2020-10-15 00:40:30
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \qxdemod:\vue\qxui\src\main.js
+ */
 // 引入Vue
 import Vue from 'vue';
 // 引入App
@@ -10,6 +18,7 @@ import 'vant/lib/index.css';
 import router from './router';
 
 // 把Vant注册成vue插件
+// test
 Vue.use(Vant);
 
 // 阻止显示生产模式的消息

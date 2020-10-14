@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2020-10-14 23:59:08
- * @LastEditTime: 2020-10-15 00:34:30
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-10-15 00:39:38
+ * @LastEditors: your name
  * @Description: In User Settings Edit
  * @FilePath: \qxdemod:\vue\qxui\src\App.vue
 -->
@@ -22,7 +22,7 @@
 <script>
 export default {
   // 名称
-  name: "App",
+  name: 'App',
   // 数据
   data() {
     return {
@@ -34,13 +34,13 @@ export default {
     // 标题
     title() {
       const { title } = this.$route.meta || {};
-      return title ? title : "";
+      return title ? title : '';
     },
   },
   // 侦听属性
   watch: {
     $route(val) {
-      this.leftArrow = val.path == "/" ? false : true;
+      this.leftArrow = val.path == '/' ? false : true;
     },
   },
   // 方法
