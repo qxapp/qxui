@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-10-14 23:59:08
- * @LastEditTime: 2020-10-15 00:26:37
+ * @LastEditTime: 2020-10-15 00:34:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \qxdemod:\vue\qxui\src\App.vue
@@ -53,8 +53,3 @@ export default {
   },
 };
 </script>
-
-<style lang="less">
-@import "./style/base";
-@import "./style/var";
-</style>
