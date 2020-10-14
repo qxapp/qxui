@@ -1,0 +1,11 @@
+<template>
+  <el-scrollbar>
+    <el-menu
+      :default-active="activeMenu"
+      :collapse="collapse"
+      :unique-opened="false"
+      :collapse-transition="false"
+    >
+    </el-menu>
+  </el-scrollbar>
+</template>
