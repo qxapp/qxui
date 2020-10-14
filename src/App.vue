@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-10-14 23:59:08
+ * @LastEditTime: 2020-10-15 00:26:37
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \qxdemod:\vue\qxui\src\App.vue
+-->
 <template>
   <div id="app">
     <van-nav-bar
@@ -49,10 +57,4 @@ export default {
 <style lang="less">
 @import "./style/base";
 @import "./style/var";
-
-.page {
-  box-sizing: border-box;
-  padding-bottom: @padding-md;
-  min-height: calc(100vh - 46px);
-}
 </style>
